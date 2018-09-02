@@ -11,8 +11,8 @@ import scrapy
 class ShiyanlouItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    id = scrapy.Field()
-    name = srcapy.Field()
+    
+    name = scrapy.Field()
     update_time = scrapy.Field()
 
 
